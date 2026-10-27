@@ -1,0 +1,11 @@
+import { Metadata } from 'next';
+import { CartView } from '@/components/cart/CartView';
+
+export const metadata: Metadata = {
+  title: 'Shopping Cart | Shopbujo Hatto',
+  description: 'Review your selected vegetables, fruits, and produce quantities.',
+};
+
+export default function CartPage() {
+  return <CartView />;
+}
